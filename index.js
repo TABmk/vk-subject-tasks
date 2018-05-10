@@ -19,6 +19,7 @@ BOT.api('users.get').then(data => {
 // TODO access system
 // TODO show names in 'free' command instead of ids
 // TODO configure each debug message
+// TODO rewrite try...catch in processor (current version is only for test)
 
 // crutch due module bug, when event 'update' slice vk response, lol
 // since that using another method to handle messages with full data
